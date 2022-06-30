@@ -370,7 +370,7 @@
   },
   "openapi": "3.0.3",
   "servers": [
-    { "url": "https://synapse.dorime.org", "description": "production" },
+    { "url": "https://analytics-api.bridgesyn.com", "description": "production" },
     { "url": "http://localhost:1337", "description": "development" }
   ],
   "paths": {
