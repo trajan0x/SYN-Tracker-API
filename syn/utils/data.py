@@ -286,7 +286,7 @@ for key, value in SYN_DATA.items():
     w3.middleware_onion.add(local_filter_middleware)
     print(key)
     try:
-        print(w3.eth.syncing)
+        print(w3.eth.block_number)
     except Exception as e:
         print(e)
 
